@@ -1,0 +1,29 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Home Page{% endblock %}
+
+{% block body %}
+    <main>
+        <div id="left" class="box">
+            <h1>Najnowsze wpisy</h1>
+            <section>
+                <div class="posts">
+
+                </div>
+            </section>
+        </div>
+        <div id="right" class="box">
+
+            <div id="zegar">
+                <h1 style="letter-spacing: 4px; margin-bottom: 0;">17:00</h1>
+                <h4 style="margin-top: 0px;"><small>14.02.2023</small></h4>
+            </div>
+
+            <div id="konto">
+                <div class="log">Zaloguj się</div>
+                <div class="log">Zarejestruj się</div>
+            </div>
+        </div>
+        <div style="clear: both;"></div>
+    </main>
+{% endblock %}
